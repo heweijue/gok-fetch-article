@@ -1,0 +1,17 @@
+{
+  "name": "gok-fetch-article",
+  "version": "0.1.0",
+  "description": "Fetch the readable content of a web page, bypassing anti-bot interstitials, with a curl-then-Playwright engine ladder. Local only, no third-party scraping service.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "gok-fetch-article": "scripts/fetch.mjs"
+  },
+  "scripts": {
+    "postinstall-note": "After npm install, run: npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
